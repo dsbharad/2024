@@ -1,0 +1,90 @@
+1.	What is Java platform independent?
+2.	Why is Java not a pure object oriented language?
+3.	Difference between heap and stack memory in Java. How Java utilises both?
+4.	Can Java be said to the complete programming language?
+5.	How are different from C++?
+6.	Pointers are used in C / C++. Why does Java make use of pointers?
+7.	What do you understand by an instance variable and local variable?
+8.	What are the default values assigned to variables and instances in Java?
+9.	What do you mean by data encapsulation?
+10.	JIT compiler
+11.	differences between equals method and equality operator in Java
+12.	declaration of infinite loop in Java
+13.	explain constructor overloading
+14.	copy constructors in Java
+15.	overloading of main method
+16.	explain overloading and overriding with examples
+17.	try catch block mechanism
+18.	explanation of keywords final with usages in variable method class
+19.	explanation of final, finally, finalise keywords.
+20.	Possibility of finally block not being executed
+21.	 
+22.	Usage of super keyword
+23.	overloading of static methods
+24.	why main method is static
+25.	can the static methods be overridden
+26.	difference between static methods static variable static classes
+27.	explain garbage collection ( memory, heap , stack)
+28.	explain class loaders
+29.	differences between shallow copy and deep copy 
+30.	Immutability of strings in Java
+31.	Singleton design pattern
+32.	differences between string, stringbuffer and stringbuilder
+33.	differences between interfaces and abstract classes
+34.	comparators in Java
+35.	overriding of static private methods is possible
+36.	differences between hash set and tree set
+37.	why character array should be preferred over string for storing confidential information
+38.	what do we get in the jdk file
+39.	differences between jvm JRE JDK in Java
+40.	differences between hashmap and hashtable in Java
+41.	reflections in java
+42.	Different ways of using threads
+43.	different types of thread priorities difference between program and the process
+44.	differences between throw and throws keyword
+45.	differences between constructed method of a class
+46.	Differences between pass by value pass by reference
+47.	differences between “is a” and “has a” relationship in java
+48.	When there are lot of updates to be done which among string string buffer should be preferred
+49.	How to restrict serialization of attributes in Java?
+50.	What happens if static modifier is not included in the signature of the main method?
+51.	What are daemon threads? Is the main method a daemon thread?
+52.	Can there be multiple main methods inside class?
+53.	Explain object cloning. Explain the implementation.
+54.	Propagation of an exception in the code. What happens if an exception is not handled?
+55.	Invocation off hey constructor from another constructor
+56.	differences between array arraylist
+57.	why the index of an array starts with zero?
+58.	Operations and their complexity in linked list. Compare with the operations in an array.
+59.	How many overloaded add end all methods are available the list interface?
+60.	Growth of size of array list – implementation details.
+61.	Comparison of inheritance with relationship.
+62.	Difference between >> and >>> operators in Java
+63.	explain composition Ed aggregation
+64.	creation of string using new operator and from a literal.
+65.	Why memory exceeds limit despite having a garbage collector
+66.	 How new operator is different from new instance operator in Java?
+67.	Why is synchronisation necessary? Explained with examples.
+68.	Life cycle of java thread
+69.	Differences between the usage of an unordered array the usage of an ordered array.
+70.	Marker interfaces in java
+71.	Explain the term double brace initialization.
+72.	Why is it said that the length method of string class doesn't return accurate results?
+73.	Possible ways of making object eligible for garbage collection
+74.	dependency injection the best way to do it.
+75.	Scope of spring bean.
+76.	Categories of design patterns in Java.
+77.	Explain memory leaks with common causes and examples.
+78.	Assume that thread has a lock on it calling the sleep method thread will release the lock?
+79.	Using recursion find if given string is a palindrome or not.
+80.	Using recursion display Fibonacci series.
+81.	Check if given strings are anagrams or not.
+82.	Find the missing number in an array off non duplicating numbers from one to n.
+83.	Check if any number is a magic number or not.
+84.	Custom exceptions in Java.
+85.	Reverse string in Java
+86.	write a program to rotate 90 degrees clockwise by taking matrices from user input
+87.	check if any given input is the sum of 2 prime numbers
+88.	tower of Hanoi problem
+89.	implementation of binary search using recursion
+ 
