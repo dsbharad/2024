@@ -1,0 +1,28 @@
+To be discussed:
+14-Jan-2024
+1. difference between using a constructor vs valueOf method of a String object
+2. Double brace intialization
+	https://stackoverflow.com/questions/1958636/what-is-double-brace-initialization-in-java
+	https://community.sonarsource.com/t/double-brace-initialization-of-static-members/62290
+	https://blog.jooq.org/dont-be-clever-the-double-curly-braces-anti-pattern/
+3. Understand patterns
+		^[a-z_]+(\.[a-z_][a-z0-9_]*)*$
+		https://community.sonarsource.com/t/java-s120-triggers-when-underscores-are-present-false-positive/58544
+4. Implementation of logger in project
+	https://logging.apache.org/log4j/2.x/index.html	https://howtodoinjava.com/log4j2/log4j2-xml-configuration-example/#:~:text=The%20log4j2.&text=We%20should%20put%20log4j2.,%2Fmain%2Fresources'%20folder.
+	https://www.tutorialspoint.com/log4j/log4j_interview_questions.htm
+	https://career.guru99.com/top-25-log4j-interview-questions/
+5. General urls:
+	https://howtodoinjava.com/series/java-tutorial/
+6. Collections -- study url s
+	https://www.geeksforgeeks.org/abstractmap-in-java/
+	https://www.baeldung.com/java-initialize-hashmap
+	
+	
+	To be completed for next discussion
+Creation of an immutable object
+		1. don't create any setters of the members
+		2. (for mutable fields) -- while returning the members via getters, will reconstruct the member and return it
+		3. factors that can impact immutability
+			a. serialization
+			b. reflection
