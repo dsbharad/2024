@@ -1,4 +1,4 @@
-package com.jan.romanToInteger.v1;
+package com.jan.roman_to_integer.v1;
 
 import java.util.AbstractMap;
 import java.util.Map;
