@@ -3,7 +3,7 @@ package com.jan;
 import com.jan.commons.annotations.PickClassForExecution;
 import com.jan.commons.annotations.PickMethodForExecution;
 
-@PickClassForExecution
+//@PickClassForExecution
 public class SmallestPalindrome {
 
     @PickMethodForExecution

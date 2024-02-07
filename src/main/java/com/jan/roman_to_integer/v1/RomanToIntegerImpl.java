@@ -1,4 +1,4 @@
-package com.jan.romanToInteger.v1;
+package com.jan.roman_to_integer.v1;
 
 import java.util.AbstractMap;
 import java.util.Map;
@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 import com.jan.commons.annotations.PickClassForExecution;
 import com.jan.commons.annotations.PickMethodForExecution;
 
-@PickClassForExecution
+//@PickClassForExecution
 public class RomanToIntegerImpl {
 	private static final Logger log = LogManager.getLogger(RomanToIntegerImpl.class);
 
