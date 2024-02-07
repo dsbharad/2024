@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 import com.jan.commons.annotations.PickClassForExecution;
 import com.jan.commons.annotations.PickMethodForExecution;
 
-@PickClassForExecution
+//@PickClassForExecution
 public class RomanToIntegerImpl {
 	private static final Logger log = LogManager.getLogger(RomanToIntegerImpl.class);
 

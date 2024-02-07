@@ -3,7 +3,7 @@ package com.jan.twoSum;
 import com.jan.commons.annotations.PickClassForExecution;
 import com.jan.commons.annotations.PickMethodForExecution;
 
-@PickClassForExecution
+//@PickClassForExecution
 public class TwoSum {
 
 	public TwoSum() {

@@ -3,6 +3,11 @@
 	if log4j initialization is failing. -->
 <Configuration status="warn">
 	<Appenders>
+
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+		</Console>
 		<File name="MyFile" fileName="logs/app.log">
 			<PatternLayout>
 				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
@@ -10,9 +15,13 @@
 		</File>
 	</Appenders>
 	<Loggers>
-		<!-- Root logger referring to console appender -->
+	 <Logger name="com.jan" additivity="false" level="all">
+            <AppenderRef ref="MyFile" />
+            <AppenderRef ref="console" />
+        </Logger>
 		<Root level="all" additivity="false">
 			<AppenderRef ref="MyFile" />
+			<AppenderRef ref="console" />
 		</Root>
 	</Loggers>
 </Configuration>
