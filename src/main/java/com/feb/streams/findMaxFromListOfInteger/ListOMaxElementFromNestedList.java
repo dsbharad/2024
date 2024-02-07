@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 
 import com.jan.commons.annotations.PickClassForExecution;
 import com.jan.commons.annotations.PickMethodForExecution;
-@PickClassForExecution
+//@PickClassForExecution
 public class ListOMaxElementFromNestedList {
 	
 	private static final Logger log = LogManager.getLogger(ListOMaxElementFromNestedList.class);
@@ -23,16 +23,16 @@ public class ListOMaxElementFromNestedList {
 		return response;
     }
 	
-	@PickMethodForExecution
+//	@PickMethodForExecution
 	public static void solve() {
 		Random rnd = new Random();
-		List<List<Integer>> nestedList= populatedData(rnd);
+		List<List<Integer>> nestedList= populateData(rnd);
 		log.info("input {}", nestedList);
 		List<Integer> solution = solve(nestedList);
 		log.info("Solution {}", solution);
 	}
 
-	private static List<List<Integer>> populatedData(Random rnd) {
+	private static List<List<Integer>> populateData(Random rnd) {
 		int rowSize = rnd.nextInt(100)+1;
 		int colSize = rnd.nextInt(5)+1;
 		List<List<Integer>> response = new ArrayList<>();
