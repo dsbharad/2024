@@ -17,7 +17,7 @@ public class StarterClass {
 	private static final Logger log = LogManager.getLogger(StarterClass.class); 
 
 	public static void main(String[] args) {
-		Reflections rfl = new Reflections("com.feb.streams");
+		Reflections rfl = new Reflections("com.feb.Day12");
 		Set<Class<?>> annotatedClasses = rfl.getTypesAnnotatedWith(PickClassForExecution.class);
 		if (!annotatedClasses.isEmpty()) {
 			for (Class cls : annotatedClasses) {
