@@ -1,4 +1,4 @@
-package com.feb.Day12.Q5;
+package com.feb.Day12.Q5MainDiagonalSum;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -31,9 +31,9 @@ public class Q5MainDiagonalSum extends BaseClass {
 		if (index % rowSize == 0) {
 			place++;
 		}
-		getLog().info("index: {} and place: {}", index, place);
+//		getLog().info("index: {} and place: {}", index, place);
 		if(place==index%rowSize) {
-			getLog().info("ReturnedValue: {}", input.get(2).get(index));
+//			getLog().info("ReturnedValue: {}", input.get(2).get(index));
 			return input.get(2).get(index);
 		}
 		return Integer.MIN_VALUE;

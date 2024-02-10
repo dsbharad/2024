@@ -1,4 +1,4 @@
-package com.feb.Day12.Q6;
+package com.feb.Day12.Q6MultiplesOfEachElement;
 
 import java.util.ArrayList;
 import java.util.List;
